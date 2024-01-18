@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artworks Gallery</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <style>
+    /* Your existing styles remain unchanged */
+
+    body {
+      font-family: 'Poppins', Arial, sans-serif; /* Use Poppins font as a fallback if available, otherwise use Arial or sans-serif */
+      margin: 0;
+      padding: 0;
+      background-color: #4a69ad;
+    }
+
+    header {
+      background-color: #4a69ad;
+      color: #ffffff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #ffffff;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .artwork {
+      background-color: #b8df69;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .artwork img {
+      max-width: 100%; /* Make the image width fill its container */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 8px; /* Optional: Add border radius to the images */
+    }
+
+    footer {
+      color: #dee8ff;
+      padding: 10px;
+      text-align: center;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Add a style for the link in the footer */
+    footer a {
+      color: #dee8ff;
+      text-decoration: underline;
+    }
+
+    /* Contact Form Styles */
+    form {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background-color: #4a69ad;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    /* WhatsApp Chat Section Styles */
+    .whatsapp-chat {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .whatsapp-chat img {
+      max-width: 50px;
+      height: auto;
+    }
+
+    .whatsapp-chat a {
+      display: block;
+      background-color: #25d366;
+      color: #fff;
+      padding: 10px;
+      margin-top: 15px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Anurag Bharali a.k.a Artease Page!</h1>
+    <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYSmPlJRGnWEsk6HPaAVN3bzFdbN7eFczPdGMDHGs5DOy52jXvMK_P_thiFcX7cPA_akff_a0zbw_Sf2EeoODWjYKjw5=s1600" alt="Artworks Gallery Header Image">
+  </header>
+
+  <section>
+    <div class="artwork">
+      <h2>Digital Arts (Lovely Era)</h2>
+      <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYSRNOhrwQ0kCY8sJeRXjps2yv7WqhRvy21iECeZ1quzMWRMwb0nAQhZfpHboN9IMRlnW14RaThkkf1n6lHherYtSsR9fQ=s1600" alt="Artwork 1">
+      <p>Above are the era of divine love........</p>
+    </div>
+
+    <div class="artwork">
+      <h2>Artwork Title (Cartoon Portraits)</h2>
+      <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYRbcfd8Nz5E6HF1aaZ8FprxokqwPMM0aAu4UEB4XVWnhjGleSuPVNHPFc32ItQcmB5sBwpWI55cUmZl1lISOPPyvx5K6A=s1600" alt="Artwork 2">
+      <p>Above are the kidding cartoons which made you laugh!......... </p>
+    </div>
+    <!-- Add more artworks as needed -->
+  </section>
+
+
+  <!-- WhatsApp Chat Section -->
+  <section class="whatsapp-chat">
+    <h2>Contact via WhatsApp</h2>
+    <p>Click the button below to start a WhatsApp chat:</p>
+    <a href="https://wa.me/+916000633846" target="_blank">
+      <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYT-o9G_GgT3Ph3mn3iCwiTZyi4MYoDR0f_indtjxeuAnp7SO5sd8IXRrfIGQJtvwCEhZpUJgNJncclv4SYYvWGrlyCLUQ=s2560" alt="WhatsApp Icon">
+      Chat on WhatsApp
+    </a>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <h2>Anurag Bharali</h2> <a href="https://www.instagram.com/artease_page/" target="_blank">Follow me on Instagram</a>
+    <h2>Coded in HTML & CSS by Tanmay Karmakar</h2> <a href="https://www.instagram.com/prog_tanmay" target="_blank">Follow me on Instagram</a>
+
+
